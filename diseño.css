@@ -1,0 +1,166 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foto{
+    background: linear-gradient(rgba(190, 207, 191, 0.75), rgba(190, 207, 191, 0.75)), url(img/Fondo1.jpg) no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 10px rgb(122, 122, 122);
+}
+
+.subtitulo{
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 10px rgb(122, 122, 122);
+}
+
+.logo{
+    width: 130px;
+    height: 50px;
+    float: left;
+}
+
+.tabla1{
+    border-spacing: 10px;
+    text-align: right;
+    border: solid 2px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1200px;
+    padding: 10px;
+    width: fit-content;
+    text-align: justify;
+}
+
+.btn1{
+    color: black;
+    background-color: transparent;
+    border: 3px solid rgb(133, 77, 14);
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin-bottom: 70px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: rgb(133, 77, 14);
+}
+
+h4{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabeza1{
+    width: 750px;
+    border-left: none;
+}
+.cabeza{
+    border-left: none;
+    text-align: right;
+    padding: 10px;
+}
+
+.cabeza a:hover{
+    color: rgb(5, 95, 24);
+    background-color: white;
+    border-radius: 80px;
+    font-size: larger;
+}
+
+.tabla2{
+    table-layout: fixed;
+    margin: 90px;
+    border-collapse:separate;
+    width: 87%;
+    color: black;
+
+}
+
+th{
+    border: solid 2px black;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.cf1{
+    border: none;
+}
+
+.cf:hover{
+    background-color: white;
+}
+
+.cf1:hover{
+    background-color: white;
+}
+
+.cf a:hover{
+    color: rgb(5, 95, 24);;
+}
+
+.cf1 a:hover{
+    color: rgb(5, 95, 24);;
+}
+
+.imagen{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+.imagen2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.show{
+    margin-left: 220px;
+    border: none;
+    float:left;
+    margin-top: 40px;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+body{
+    background-color: rgb(211, 245, 200);
+}
+
+.btn2{
+    color: rgb(133, 77, 14);
+    background-color: transparent;
+    border: 3px solid rgb(133, 77, 14);
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.btn2:hover{
+    color: white;
+    background-color: rgb(133, 77, 14);
+    font-weight: bolder;
+}
